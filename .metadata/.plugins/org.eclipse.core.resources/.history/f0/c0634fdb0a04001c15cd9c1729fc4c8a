@@ -1,0 +1,30 @@
+package review;
+
+import java.util.Scanner;
+
+public class WT04 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+        
+        System.out.println("n>");
+        int a = sc.nextInt();
+        System.out.println("m>");
+        int b = sc.nextInt();
+        
+        String s = "*";
+        for(int i=0; i < a; i++){
+            for(int j=0; i <= b ; j++){
+
+                System.out.print(s);
+ 
+            }
+            System.out.print("/n");
+            
+        }
+
+		
+ 	}
+
+}
